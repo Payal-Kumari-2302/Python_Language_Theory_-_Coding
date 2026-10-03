@@ -238,7 +238,7 @@ By the end of this challenge, I aim to:
 
 ## 🔥 Challenge Rule
 
-> **Learn → Code → Practice → Revise → Push to GitHub**
+**Learn → Code → Practice → Revise → Push to GitHub**
 
 Consistency is the key to completing this challenge. 🚀
 
@@ -253,7 +253,7 @@ BCA Student | Python Learner | Placement Preparation
 ---
 
 ### 
----
+
 🌟Small progress every day leads to big results. I will keep learning, keep coding, and never give up.🚀
 
 
