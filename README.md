@@ -228,7 +228,7 @@ By the end of this challenge, I aim to:
 
 **Duration:** 90 Days
 
-**Start Date:** 2 October 2026
+**Start Date:** 3 October 2026
 
 **Focus:** Python Theory + Coding + Problem Solving + Projects
 
@@ -251,10 +251,13 @@ Consistency is the key to completing this challenge. 🚀
 BCA Student | Python Learner | Placement Preparation
 
 ---
+⭐ If you like this project, give it a star on GitHub!
+### 
 
-### 💫
-
-> 🌟 **“Small progress every day leads to big results. I will keep learning, keep coding, and never give up.”** 🚀
+> 🌟**“Small progress every day leads to big results. I will keep learning, keep coding, and never give up.”** 🚀
 
 
-⭐ **90 Days. One Goal. Consistent Learning.**
+⭐**90 Days. One Goal. Consistent Learning.**
+
+---
+⭐ If you like this project, give it a star on GitHub!
