@@ -1,10 +1,10 @@
 # Python 90 Days Challenge
-# Day 01 - Practice Questions & Solutions
+# Day 01 - Practice Questions
 
 
-# ==============================
+# =========================
 # PRACTICE QUESTIONS
-# ==============================
+# =========================
 
 # Q1. Print "Hello, Python!"
 
@@ -23,31 +23,21 @@
 # Q8. Write a program using correct indentation.
 
 
-# ==============================
-# PRACTICE INSTRUCTION
-# ==============================
-
-# First, try to solve all the questions yourself.
-# Do not look at the solutions immediately.
-# If you cannot solve a question, check the solution
-# section below and understand the code.
-
-
-# ==============================
+# =========================
 # SOLUTIONS
-# ==============================
+# =========================
 
-# Q1. Solution
+# Solution 1
 print("Hello, Python!")
 
 
-# Q2. Solution
+# Solution 2
 print("My name is Payal.")
 print("I am a BCA student.")
 print("My college is Pakur Polytechnic.")
 
 
-# Q3. Solution
+# Solution 3
 print("Easy Syntax")
 print("High-Level")
 print("Interpreted")
@@ -55,7 +45,7 @@ print("Object-Oriented")
 print("Open-Source")
 
 
-# Q4. Solution
+# Solution 4
 print("Web Development")
 print("Automation")
 print("Data Science")
@@ -63,7 +53,7 @@ print("Artificial Intelligence")
 print("Machine Learning")
 
 
-# Q5. Solution
+# Solution 5
 print("Easy to learn")
 print("Simple syntax")
 print("Large library support")
@@ -71,15 +61,15 @@ print("Useful for automation")
 print("Free and open-source")
 
 
-# Q6. Solution
+# Solution 6
 print("Interpreted execution is usually slower than compiled execution.")
 
 
-# Q7. Solution
+# Solution 7
 print("Creator: Guido van Rossum")
 print("First Released: 1991")
 
 
-# Q8. Solution
+# Solution 8
 if True:
     print("Python is easy to learn")
