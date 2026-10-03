@@ -251,13 +251,13 @@ Consistency is the key to completing this challenge. 🚀
 BCA Student | Python Learner | Placement Preparation
 
 ---
-⭐ If you like this project, give it a star on GitHub!
+
 ### 
 
-> 🌟**“Small progress every day leads to big results. I will keep learning, keep coding, and never give up.”** 🚀
+>🌟**“Small progress every day leads to big results. I will keep learning, keep coding, and never give up.”** 🚀
 
 
-⭐**90 Days. One Goal. Consistent Learning.**
+ ⭐**90 Days. One Goal. Consistent Learning.**
 
 ---
-⭐ If you like this project, give it a star on GitHub!
+ 😊 If you like this project, give it a star on GitHub!
