@@ -1,13 +1,21 @@
-🐍 90 Days Python Challenge
-Day-04 — Python Operators Interview Questions
+90 Days Python Challenge
+Day-04 — Python Operators
+Interview Questions
 1. What is an operator in Python?
 
 An operator is a symbol used to perform an operation on values or variables.
 
 2. What are the different types of operators in Python?
 
-The main types are Arithmetic, Comparison, Logical, Assignment, Membership, Identity and Bitwise operators.
+The main types are:
 
+Arithmetic Operators
+Comparison Operators
+Logical Operators
+Assignment Operators
+Membership Operators
+Identity Operators
+Bitwise Operators
 3. What are arithmetic operators?
 
 Arithmetic operators are used to perform mathematical operations.
@@ -28,13 +36,13 @@ The ** operator is used to calculate the power of a number.
 
 7. What are comparison operators?
 
-Comparison operators compare two values and return True or False.
+Comparison operators are used to compare two values and return True or False.
 
 Examples: >, <, >=, <=, ==, !=
 
 8. What is the difference between = and ==?
 
-= is used for assignment, while == is used to compare two values.
+= is used to assign a value, while == is used to compare two values.
 
 9. What are logical operators in Python?
 
@@ -67,11 +75,14 @@ Example:
 x = 10
 x += 5
 
-Here, x becomes 15.
+print(x)
 
+Output:
+
+15
 15. What are membership operators?
 
-in and not in are membership operators used to check whether a value exists in a sequence or collection.
+in and not in are membership operators used to check whether a value exists in a collection.
 
 16. What are identity operators?
 
