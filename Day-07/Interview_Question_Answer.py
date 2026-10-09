@@ -1,33 +1,26 @@
 # 🐍 Python 90 Days Challenge — Day 07
 
-## Interview Questions with Answers & Real-World Examples
+## Interview Questions with Answers
 
-### Q1. What are nested conditions in Python?
+### Q1. What are Nested Conditions in Python?
 
-**Answer:** Nested conditions are conditional statements written inside another conditional statement.
+**Answer:** Nested conditions are conditional statements written inside another conditional statement. They help make decisions based on multiple conditions.
 
-**Real-World Example:** An ATM checks whether the account has sufficient balance before allowing a withdrawal.
+**Real-World Example:** An ATM checks whether the account has sufficient balance before processing a withdrawal.
 
-### Q2. What is the ternary operator in Python?
+### Q2. What is the Ternary Operator in Python?
 
-**Answer:** The ternary operator is a one-line shorthand for a simple `if-else` statement.
+**Answer:** The ternary operator is a short way to write an `if-else` statement in a single line.
 
-**Real-World Example:** An online shopping website displays `"Eligible for Discount"` or `"Not Eligible"` based on the purchase amount.
+**Real-World Example:** An online shopping website checks whether a customer is eligible for a discount.
 
-### Q3. What is the `match-case` statement in Python?
+### Q3. What is the `match-case` Statement in Python?
 
-**Answer:** The `match-case` statement compares a value against multiple patterns and executes the matching case.
+**Answer:** The `match-case` statement compares a value against multiple cases and executes the matching case.
 
-**Real-World Example:** An ATM menu processes options such as checking balance, withdrawing money, and depositing money.
+**Real-World Example:** An ATM processes user choices such as checking balance, withdrawing money, or depositing money.
 
-### Q4. What are truthy and falsy values in Python?
+### Q4. What are Truthy and Falsy Values in Python?
 
-**Answer:** Truthy values behave like `True`, while falsy values behave like `False` in conditional statements.
+**Answer:** Truthy values behave like `True`, while falsy values
 
-**Real-World Example:** A login form checks whether the username field is empty before processing the login request.
-
-### Q5. What is the purpose of `case _` in Python?
-
-**Answer:** The `case _` pattern acts as a default case when no previous case matches.
-
-**Real-World Example:** A calculator displays `"Invalid Operator"` when a user enters an unsupported operator.
