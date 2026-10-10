@@ -84,24 +84,9 @@ while number <= 3:
 
 **Key Difference:** A `for` loop stops when the sequence is exhausted, while a `while` loop stops when its condition becomes `False`.
 
-### Q5. What is the purpose of range() in Python?
 
-**Definition:** The `range()` function generates a sequence of numbers.
 
-**Purpose:** To iterate over a specified range of numbers.
-
-**Example:**
-
-```python
-for i in range(1, 5):
-    print(i)
-```
-
-**Output:** `1 2 3 4`
-
-**Note:** The ending value `5` is excluded.
-
-### Q6. When does a while loop stop?
+### Q5. When does a while loop stop?
 
 **Definition:** A `while` loop stops when its condition becomes `False`.
 
@@ -119,22 +104,8 @@ while number <= 2:
 
 **Output:** `1 2`
 
-### Q7. What is an infinite loop?
 
-**Definition:** An infinite loop continues running because its stopping condition is never reached.
-
-**Purpose:** It can be used for continuous operations when an appropriate stopping mechanism is provided.
-
-**Example:**
-
-```python
-while True:
-    print("Hello")
-```
-
-**Note:** This loop continues until it is interrupted.
-
-### Q8. Why should we update a variable inside a while loop?
+### Q6. Why should we update a variable inside a while loop?
 
 **Definition:** Updating a variable means changing its value during loop execution.
 
@@ -152,7 +123,7 @@ while number <= 3:
 
 **Output:** `1 2 3`
 
-### Q9. Can a for loop iterate over a string?
+### Q7. Can a for loop iterate over a string?
 
 **Definition:** Yes, a `for` loop can process a string one character at a time.
 
@@ -167,7 +138,7 @@ for char in "Code":
 
 **Output:** `C o d e`
 
-### Q10. Why is indentation important in loops?
+### Q8. Why is indentation important in loops?
 
 **Definition:** Indentation is the whitespace at the beginning of a line that defines a block of code in Python.
 
@@ -191,13 +162,8 @@ for i in range(3):
 * **Loop:** Repeats a block of code.
 * **For Loop:** Iterates over a sequence.
 * **While Loop:** Runs while a condition is `True`.
-* **range():** Generates a sequence of numbers.
 * **Stopping Condition:** Determines when a loop ends.
 * **Infinite Loop:** Continues without reaching a stopping condition.
 * **Variable Update:** Helps a loop progress toward termination.
 * **String Iteration:** Processes characters one by one.
 * **Indentation:** Defines the loop body.
-
-**Day:** 08 / 90
-**Topic:** Loops – For Loop and While Loop
-**Level:** Fresher / Beginner
