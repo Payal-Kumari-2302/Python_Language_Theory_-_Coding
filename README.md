@@ -240,7 +240,7 @@ By the end of this challenge, I aim to:
 
 **Learn → Code → Practice → Revise → Push to GitHub**
 
-Consistency is the key to completing this challenge. 🚀
+Consistency is the key to completing this challenge.🚀
 
 ---
 
