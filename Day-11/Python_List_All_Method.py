@@ -9,7 +9,6 @@
 ```python
 students = ["Payal", "Riya"]
 students.append("Aman")
-
 print(students)
 ```
 
@@ -22,7 +21,6 @@ print(students)
 ```python
 students = ["Payal", "Riya"]
 students.extend(["Aman", "Priya"])
-
 print(students)
 ```
 
@@ -35,7 +33,6 @@ print(students)
 ```python
 tasks = ["Study", "Exercise"]
 tasks.insert(1, "Practice Python")
-
 print(tasks)
 ```
 
@@ -48,7 +45,6 @@ print(tasks)
 ```python
 shopping = ["Milk", "Bread", "Eggs"]
 shopping.remove("Bread")
-
 print(shopping)
 ```
 
@@ -56,12 +52,11 @@ print(shopping)
 
 **Definition:** The `pop()` method removes and returns an item by index. By default, it removes the last item.
 
-**Real-World Example:** Removing the last completed task from a task list.
+**Real-World Example:** Removing the last task from a task list.
 
 ```python
 tasks = ["Study", "Exercise", "Reading"]
 completed = tasks.pop()
-
 print(completed)
 print(tasks)
 ```
@@ -75,7 +70,6 @@ print(tasks)
 ```python
 shopping = ["Milk", "Bread", "Eggs"]
 shopping.clear()
-
 print(shopping)
 ```
 
@@ -87,7 +81,6 @@ print(shopping)
 
 ```python
 students = ["Payal", "Riya", "Aman"]
-
 print(students.index("Riya"))
 ```
 
@@ -99,7 +92,6 @@ print(students.index("Riya"))
 
 ```python
 orders = ["Pen", "Book", "Pen", "Pencil"]
-
 print(orders.count("Pen"))
 ```
 
@@ -112,7 +104,6 @@ print(orders.count("Pen"))
 ```python
 marks = [75, 90, 60, 85]
 marks.sort()
-
 print(marks)
 ```
 
@@ -125,7 +116,6 @@ print(marks)
 ```python
 activities = ["Study", "Eat", "Sleep"]
 activities.reverse()
-
 print(activities)
 ```
 
@@ -138,7 +128,6 @@ print(activities)
 ```python
 shopping = ["Milk", "Bread", "Eggs"]
 backup = shopping.copy()
-
 print(backup)
 ```
 
@@ -150,7 +139,6 @@ print(backup)
 
 ```python
 students = ["Payal", "Riya", "Aman"]
-
 print(len(students))
 ```
 
@@ -162,7 +150,6 @@ print(len(students))
 
 ```python
 marks = [80, 90, 85]
-
 print(sum(marks))
 ```
 
@@ -174,7 +161,6 @@ print(sum(marks))
 
 ```python
 prices = [100, 250, 75, 180]
-
 print(min(prices))
 ```
 
@@ -186,7 +172,6 @@ print(min(prices))
 
 ```python
 marks = [70, 95, 82, 88]
-
 print(max(marks))
 ```
 
@@ -223,7 +208,7 @@ print(sorted(marks, reverse=True))
 
 **Definition:** The `copy()` method creates a shallow copy; it does not recursively copy nested lists.
 
-**Real-World Example:** Copying a list of student records while understanding that nested lists may still be shared.
+**Real-World Example:** Copying student records while understanding that nested lists may still be shared.
 
 ```python
 students = [["Payal", 90], ["Riya", 85]]
