@@ -1,168 +1,233 @@
-# Python List Methods
+# Day 11 – Lists in Python
 
-Python provides several built-in methods to manipulate lists.
+## Q1. What does the append() method do?
 
-## 1. append()
+**Definition:** The `append()` method adds one item to the end of a list.
 
-**Definition:** Adds an element to the end of a list.
-
-```python
-numbers = [10, 20]
-numbers.append(30)
-print(numbers)  # [10, 20, 30]
-```
-
-## 2. extend()
-
-**Definition:** Adds multiple elements to a list.
+**Real-World Example:** Adding a new student to a student list.
 
 ```python
-numbers = [10, 20]
-numbers.extend([30, 40])
-print(numbers)  # [10, 20, 30, 40]
+students = ["Payal", "Riya"]
+students.append("Aman")
+
+print(students)
 ```
 
-## 3. insert()
+## Q2. What does the extend() method do?
 
-**Definition:** Inserts an element at a specified position.
+**Definition:** The `extend()` method adds all items from an iterable to the end of a list.
+
+**Real-World Example:** Adding students from another class to a student list.
 
 ```python
-numbers = [10, 30]
-numbers.insert(1, 20)
-print(numbers)  # [10, 20, 30]
+students = ["Payal", "Riya"]
+students.extend(["Aman", "Priya"])
+
+print(students)
 ```
 
-## 4. remove()
+## Q3. What does the insert() method do?
 
-**Definition:** Removes the first occurrence of a specified value.
+**Definition:** The `insert()` method adds an item at a specified index.
+
+**Real-World Example:** Adding a new task at a specific position in a to-do list.
 
 ```python
-numbers = [10, 20, 30]
-numbers.remove(20)
-print(numbers)  # [10, 30]
+tasks = ["Study", "Exercise"]
+tasks.insert(1, "Practice Python")
+
+print(tasks)
 ```
 
-## 5. pop()
+## Q4. What does the remove() method do?
 
-**Definition:** Removes and returns an element by index. By default, removes the last element.
+**Definition:** The `remove()` method removes the first occurrence of a specified value.
+
+**Real-World Example:** Removing a cancelled item from a shopping list.
 
 ```python
-numbers = [10, 20, 30]
-numbers.pop()
-print(numbers)  # [10, 20]
+shopping = ["Milk", "Bread", "Eggs"]
+shopping.remove("Bread")
+
+print(shopping)
 ```
 
-## 6. clear()
+## Q5. What does the pop() method do?
 
-**Definition:** Removes all elements from a list.
+**Definition:** The `pop()` method removes and returns an item by index. By default, it removes the last item.
+
+**Real-World Example:** Removing the last completed task from a task list.
 
 ```python
-numbers = [10, 20, 30]
-numbers.clear()
-print(numbers)  # []
+tasks = ["Study", "Exercise", "Reading"]
+completed = tasks.pop()
+
+print(completed)
+print(tasks)
 ```
 
-## 7. index()
+## Q6. What does the clear() method do?
 
-**Definition:** Returns the index of the first occurrence of a value.
+**Definition:** The `clear()` method removes all items from a list.
+
+**Real-World Example:** Clearing all items from a temporary shopping list.
 
 ```python
-numbers = [10, 20, 30]
-print(numbers.index(20))  # 1
+shopping = ["Milk", "Bread", "Eggs"]
+shopping.clear()
+
+print(shopping)
 ```
 
-## 8. count()
+## Q7. What does the index() method do?
 
-**Definition:** Returns the number of occurrences of a value.
+**Definition:** The `index()` method returns the index of the first occurrence of a specified value.
+
+**Real-World Example:** Finding the position of a student in a class list.
 
 ```python
-numbers = [10, 20, 10, 30]
-print(numbers.count(10))  # 2
+students = ["Payal", "Riya", "Aman"]
+
+print(students.index("Riya"))
 ```
 
-## 9. sort()
+## Q8. What does the count() method do?
 
-**Definition:** Sorts the original list in ascending order by default.
+**Definition:** The `count()` method returns the number of times a value appears in a list.
+
+**Real-World Example:** Counting how many times a product appears in an order list.
 
 ```python
-numbers = [30, 10, 20]
-numbers.sort()
-print(numbers)  # [10, 20, 30]
+orders = ["Pen", "Book", "Pen", "Pencil"]
+
+print(orders.count("Pen"))
 ```
 
-## 10. reverse()
+## Q9. What does the sort() method do?
 
-**Definition:** Reverses the order of elements in the original list.
+**Definition:** The `sort()` method sorts the original list in ascending order by default.
+
+**Real-World Example:** Arranging students' marks from lowest to highest.
 
 ```python
-numbers = [10, 20, 30]
-numbers.reverse()
-print(numbers)  # [30, 20, 10]
+marks = [75, 90, 60, 85]
+marks.sort()
+
+print(marks)
 ```
 
-## 11. copy()
+## Q10. What does the reverse() method do?
 
-**Definition:** Returns a shallow copy of a list.
+**Definition:** The `reverse()` method reverses the order of items in the original list.
+
+**Real-World Example:** Reversing the order of recent activities.
 
 ```python
-numbers = [10, 20, 30]
-new_numbers = numbers.copy()
-print(new_numbers)  # [10, 20, 30]
+activities = ["Study", "Eat", "Sleep"]
+activities.reverse()
+
+print(activities)
 ```
 
----
+## Q11. What does the copy() method do?
 
-# Useful Built-in Functions for Lists
+**Definition:** The `copy()` method returns a shallow copy of a list.
 
-## 12. len()
-
-**Definition:** Returns the number of elements in a list.
+**Real-World Example:** Creating a separate copy of a shopping list.
 
 ```python
-numbers = [10, 20, 30]
-print(len(numbers))  # 3
+shopping = ["Milk", "Bread", "Eggs"]
+backup = shopping.copy()
+
+print(backup)
 ```
 
-## 13. sum()
+## Q12. What does the len() function do with a list?
 
-**Definition:** Returns the sum of numeric elements.
+**Definition:** The `len()` function returns the total number of items in a list.
+
+**Real-World Example:** Counting the number of students in a class.
 
 ```python
-numbers = [10, 20, 30]
-print(sum(numbers))  # 60
+students = ["Payal", "Riya", "Aman"]
+
+print(len(students))
 ```
 
-## 14. min()
+## Q13. What does the sum() function do with a list?
 
-**Definition:** Returns the smallest element.
+**Definition:** The `sum()` function returns the total of numeric items in a list.
+
+**Real-World Example:** Calculating the total marks obtained by a student.
 
 ```python
-numbers = [10, 20, 30]
-print(min(numbers))  # 10
+marks = [80, 90, 85]
+
+print(sum(marks))
 ```
 
-## 15. max()
+## Q14. What does the min() function do with a list?
 
-**Definition:** Returns the largest element.
+**Definition:** The `min()` function returns the smallest item in a list.
+
+**Real-World Example:** Finding the lowest price among products.
 
 ```python
-numbers = [10, 20, 30]
-print(max(numbers))  # 30
+prices = [100, 250, 75, 180]
+
+print(min(prices))
 ```
 
-## 16. sorted()
+## Q15. What does the max() function do with a list?
 
-**Definition:** Returns a new sorted list without modifying the original list.
+**Definition:** The `max()` function returns the largest item in a list.
+
+**Real-World Example:** Finding the highest marks in a class.
 
 ```python
-numbers = [30, 10, 20]
-print(sorted(numbers))  # [10, 20, 30]
-print(numbers)          # [30, 10, 20]
+marks = [70, 95, 82, 88]
+
+print(max(marks))
 ```
 
----
+## Q16. What does the sorted() function do with a list?
 
-## Important Note
+**Definition:** The `sorted()` function returns a new sorted list without modifying the original list.
 
-* List methods modify the original list when specified by their behavior.
-* `len()`, `sum()`, `min()`, `max()`, and `sorted()` are built-in functions, not list methods.
+**Real-World Example:** Displaying product prices from lowest to highest while keeping the original order unchanged.
+
+```python
+prices = [300, 100, 200]
+result = sorted(prices)
+
+print(result)
+print(prices)
+```
+
+## Q17. What does the reverse=True parameter do in sort() and sorted()?
+
+**Definition:** The `reverse=True` parameter sorts items in descending order.
+
+**Real-World Example:** Arranging students' marks from highest to lowest.
+
+```python
+marks = [75, 90, 60, 85]
+
+marks.sort(reverse=True)
+print(marks)
+
+print(sorted(marks, reverse=True))
+```
+
+## Q18. What does the copy() method not do?
+
+**Definition:** The `copy()` method creates a shallow copy; it does not recursively copy nested lists.
+
+**Real-World Example:** Copying a list of student records while understanding that nested lists may still be shared.
+
+```python
+students = [["Payal", 90], ["Riya", 85]]
+backup = students.copy()
+
+print(backup)
+```
