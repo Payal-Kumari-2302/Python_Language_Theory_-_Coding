@@ -15,16 +15,12 @@
 
 ## Instructions
 
-- Solve each question independently.
-- Write clean and readable Python code.
-- Use meaningful variable names.
-- Test your code with different inputs.
-- Check solutions only after attempting the questions.
+#- Solve each question independently.
+#- Write clean and readable Python code.
+#- Use meaningful variable names.
+#- Test your code with different inputs.
+#- Check solutions only after attempting the questions.
 
----
-# Python 90 Days Challenge
-# Day 11: Lists in Python
-# Coding Solutions
 
 # Q1. Print all elements
 numbers = [10, 20, 30, 40, 50]
