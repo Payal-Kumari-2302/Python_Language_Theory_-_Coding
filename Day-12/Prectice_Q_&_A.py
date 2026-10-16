@@ -1,196 +1,180 @@
-# Day-11 – Lists in Python: Coding Practice with Answers
-
-### Q1. Append an Element
-
-Add `40` to the end of a list.
-
 ```python
+# Python 90 Days Challenge
+# Day 11 - Practice Questions & Solutions
+
+# Python 90 Days Challenge
+# Day 11 - Lists Practice
+
+# Q1. Add 40 to the end of the list [10, 20, 30] using append().
+
+# Q2. Add [30, 40] to the list [10, 20] using extend().
+
+# Q3. Insert 15 at index 1 in the list [10, 20, 30].
+
+# Q4. Remove 20 from the list [10, 20, 30].
+
+# Q5. Remove the last element from the list [10, 20, 30].
+
+# Q6. Remove all elements from the list [10, 20, 30].
+
+# Q7. Find the index of 30 in the list [10, 20, 30, 40].
+
+# Q8. Count how many times 10 appears in [10, 20, 10, 30, 10].
+
+# Q9. Sort [40, 10, 30, 20] in ascending order.
+
+# Q10. Reverse the list [10, 20, 30].
+
+# Q11. Create a copy of the list [10, 20, 30].
+
+# Q12. Find the number of elements in [10, 20, 30, 40].
+
+# Q13. Calculate the sum of [10, 20, 30].
+
+# Q14. Find the maximum and minimum values in [15, 5, 25, 10, 20].
+
+# Q15. Sort [30, 10, 20] without changing the original list.
+
+
+# ==========================================
+# PRACTICE INSTRUCTION
+# ==========================================
+# First, try to solve all the questions yourself.
+# Do not look at the solutions immediately.
+# If you cannot solve a question, check the solution
+# and understand the logic before moving forward.
+
+
+# ==================================================
+# Q1. Add an element using append().
+# ==================================================
+
 numbers = [10, 20, 30]
 numbers.append(40)
 print(numbers)
-```
 
-**Output:** `[10, 20, 30, 40]`
 
-### Q2. Extend a List
+# ==================================================
+# Q2. Add multiple elements using extend().
+# ==================================================
 
-Add multiple elements to a list using `extend()`.
-
-```python
 numbers = [10, 20]
 numbers.extend([30, 40])
 print(numbers)
-```
 
-**Output:** `[10, 20, 30, 40]`
 
-### Q3. Insert an Element
+# ==================================================
+# Q3. Insert an element using insert().
+# ==================================================
 
-Insert `15` at index `1`.
-
-```python
 numbers = [10, 20, 30]
 numbers.insert(1, 15)
 print(numbers)
-```
 
-**Output:** `[10, 15, 20, 30]`
 
-### Q4. Remove an Element
+# ==================================================
+# Q4. Remove an element using remove().
+# ==================================================
 
-Remove `20` from the list.
-
-```python
 numbers = [10, 20, 30]
 numbers.remove(20)
 print(numbers)
-```
 
-**Output:** `[10, 30]`
 
-### Q5. Pop an Element
+# ==================================================
+# Q5. Remove the last element using pop().
+# ==================================================
 
-Remove and return the last element.
-
-```python
 numbers = [10, 20, 30]
-x = numbers.pop()
-print(x)
+numbers.pop()
 print(numbers)
-```
 
-**Output:**
 
-```text
-30
-[10, 20]
-```
+# ==================================================
+# Q6. Remove all elements using clear().
+# ==================================================
 
-### Q6. Clear a List
-
-Remove all elements from the list.
-
-```python
 numbers = [10, 20, 30]
 numbers.clear()
 print(numbers)
-```
 
-**Output:** `[]`
 
-### Q7. Find an Element's Index
+# ==================================================
+# Q7. Find the index using index().
+# ==================================================
 
-Find the index of `30`.
-
-```python
 numbers = [10, 20, 30, 40]
 print(numbers.index(30))
-```
 
-**Output:** `2`
 
-### Q8. Count an Element
+# ==================================================
+# Q8. Count elements using count().
+# ==================================================
 
-Count how many times `10` appears.
-
-```python
 numbers = [10, 20, 10, 30, 10]
 print(numbers.count(10))
-```
 
-**Output:** `3`
 
-### Q9. Sort a List
+# ==================================================
+# Q9. Sort a list using sort().
+# ==================================================
 
-Sort the numbers in ascending order.
-
-```python
 numbers = [40, 10, 30, 20]
 numbers.sort()
 print(numbers)
-```
 
-**Output:** `[10, 20, 30, 40]`
 
-### Q10. Reverse a List
+# ==================================================
+# Q10. Reverse a list using reverse().
+# ==================================================
 
-Reverse the order of list elements.
-
-```python
 numbers = [10, 20, 30]
 numbers.reverse()
 print(numbers)
-```
 
-**Output:** `[30, 20, 10]`
 
-### Q11. Copy a List
+# ==================================================
+# Q11. Copy a list using copy().
+# ==================================================
 
-Create a copy of the original list.
-
-```python
 numbers = [10, 20, 30]
-new_list = numbers.copy()
-print(new_list)
-```
+new_numbers = numbers.copy()
+print(new_numbers)
 
-**Output:** `[10, 20, 30]`
 
-### Q12. Find the Length of a List
+# ==================================================
+# Q12. Find the length of a list using len().
+# ==================================================
 
-Use `len()` to count the elements.
-
-```python
 numbers = [10, 20, 30, 40]
 print(len(numbers))
-```
 
-**Output:** `4`
 
-### Q13. Find the Sum of Elements
+# ==================================================
+# Q13. Calculate the sum using sum().
+# ==================================================
 
-Use `sum()` to calculate the total.
-
-```python
 numbers = [10, 20, 30]
 print(sum(numbers))
-```
 
-**Output:** `60`
 
-### Q14. Find Maximum and Minimum
+# ==================================================
+# Q14. Find maximum and minimum values.
+# ==================================================
 
-Find the largest and smallest elements.
-
-```python
 numbers = [15, 5, 25, 10, 20]
-print(max(numbers))
-print(min(numbers))
-```
 
-**Output:**
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
 
-```text
-25
-5
-```
 
-### Q15. Sort Without Modifying the Original List
+# ==================================================
+# Q15. Sort a list using sorted().
+# ==================================================
 
-Use `sorted()` to create a new sorted list.
-
-```python
 numbers = [30, 10, 20]
-new_list = sorted(numbers)
-print(new_list)
-print(numbers)
+sorted_numbers = sorted(numbers)
+
+print("Original List:", numbers)
+print("Sorted List:", sorted_numbers)
 ```
-
-**Output:**
-
-```text
-[10, 20, 30]
-[30, 10, 20]
-```
-
-**Day-11 Completed: Lists in Python**
